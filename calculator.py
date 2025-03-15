@@ -1,7 +1,7 @@
 def main(input: str):
 
-    expression = len(expression)
-    if expression > 3:
+    expression = input.split()
+    if len(expression) != 3:
         raise Exception("Вы ввели не два числа.")
     
     numb_1 = expression[0]
